@@ -1,0 +1,41 @@
+{
+    "name": "vue-mock-json-server",
+    "version": "1.0.0",
+    "license": "ISC",
+    "private": true,
+    "author": {
+        "email": "webdevmvp@gmail.com",
+        "name": "WebDevMVP"
+    },
+    "scripts": {
+        "serve": "json-server ./db/people.json & vue-cli-service serve",
+        "generate": "json-server ./db/generate.js",
+        "build": "vue-cli-service build"
+    },
+    "dependencies": {
+        "core-js": "^3.17.3",
+        "faker": "^5.5.3",
+        "json-server": "^0.16.3",
+        "lodash": "^4.17.21",
+        "tailwind": "^4.0.0",
+        "tailwindcss": "^2.2.15",
+        "vue": "^2.6.14"
+    },
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^2.0.6",
+        "@vue/cli-plugin-babel": "^4.2.0",
+        "@vue/cli-service": "^4.5.13",
+        "babel-eslint": "^10.0.3",
+        "babel-loader": "^8.2.2",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.1.2",
+        "node-sass": "^6.0.1",
+        "postcss": "^8.3.6",
+        "postcss-flexbugs-fixes": "^5.0.2",
+        "postcss-preset-env": "^6.7.0",
+        "vue-cli": "^2.9.6",
+        "vue-cli-plugin-tailwind": "^2.0.6",
+        "vue-template-compiler": "^2.6.14",
+        "webpack-dev-server": "^4.2.1"
+    }
+}
