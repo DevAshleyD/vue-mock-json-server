@@ -8,7 +8,7 @@
         "name": "WebDevMVP"
     },
     "scripts": {
-        "serve": "json-server ./db/people.json & vue-cli-service serve",
+        "serve": "vue-cli-service serve ./db/people.json",
         "generate": "json-server ./db/generate.js",
         "build": "vue-cli-service build"
     },
